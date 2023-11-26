@@ -1,6 +1,7 @@
-import cv2
-import os
-import numpy as np
+import cv2 #libreria de OpenCv
+import os #nos da herramientas para crear carpetas, editar nombres de archivos, etc, todo ello interaccionando con el OS
+import numpy as np #NumPy es una librería de Python especializada en el cálculo 
+                   #numérico y el análisis de datos, especialmente para un gran volumen de datos
 
 dataPath = 'C:/Users/fill_/OneDrive/Escritorio/lleidahack/test_segregacion/Data2'
 imagePaths = os.listdir(dataPath)
