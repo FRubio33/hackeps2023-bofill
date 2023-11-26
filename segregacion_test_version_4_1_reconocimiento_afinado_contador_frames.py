@@ -65,7 +65,7 @@ while True:
         in_group = False
         for group in groups:
             if (x, y, w, h) in map(tuple, group): 
-                color = (0,255,0) #verde
+                color = (0,255,0) #verde hola
                 in_group = True
                 break
 
